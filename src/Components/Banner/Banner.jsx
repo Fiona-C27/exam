@@ -4,14 +4,7 @@ import Container from '../Layout/Container'
 import element from '../../assets/element.png'
 const Banner = () => {
   return (
-    <div style = {{
-      background : 'url(./src/assets/banner.png)',
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center',
-      backgroundSize: 'cover',
-      //paddingTop: '50px',
-      //paddingBottom: '150px'
-    }}>
+    <div className="bg-[url('./src/assets/banner.png')] bg-no-repeat bg-center bg-cover">
         <img src={girl} alt='' />
         
         <Container>
